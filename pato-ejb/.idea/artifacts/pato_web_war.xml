@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pato-web:war">
+    <output-path>$PROJECT_DIR$/../pato-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pato-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pato-web.war">
+      <element id="artifact" artifact-name="pato-web:war exploded" />
+    </root>
+  </artifact>
+</component>

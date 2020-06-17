@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pato-web" />
+        <module name="pato-ejb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pato-ejb" target="11" />
+      <module name="pato-web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pato-ejb" options="-endorseddirs D:\bakalarka\PATO\pato-ejb\target/endorsed" />
+      <module name="pato-web" options="-endorseddirs D:\bakalarka\PATO\pato-web\target/endorsed" />
+    </option>
+  </component>
+</project>
