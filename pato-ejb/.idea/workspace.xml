@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pato-web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e8c0edc-c3a9-4aa7-baff-3a30e4c97d06" name="Default Changelist" comment="" />
+    <list default="true" id="3e8c0edc-c3a9-4aa7-baff-3a30e4c97d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_RS_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pato-web/pato-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pato-web/pato-web.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +86,21 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1dS2hDo0wmpDHVWYL3Ozvkb0iVX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pato-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pato-web/lib/jersey-bundle-1.9.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,12 +116,8 @@
   </component>
   <component name="RunManager">
     <configuration name="JBoss 20" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pato-web/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pato-ejb:ejb exploded">
-          <settings />
-        </artifact>
         <artifact name="pato-web:war exploded">
           <settings />
         </artifact>
@@ -170,7 +182,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pato-ejb:ejb exploded" />
           <artifact name="pato-web:war exploded" />
         </option>
       </method>
@@ -204,11 +215,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592404290504</updated>
-      <workItem from="1592404291986" duration="1079000" />
+      <workItem from="1592404291986" duration="3380000" />
+      <workItem from="1592407837272" duration="3835000" />
+      <workItem from="1601921329990" duration="208000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
