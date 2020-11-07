@@ -17,8 +17,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="pato-ejb" options="-endorseddirs D:\bakalarka\PATO\pato-ejb\target/endorsed" />
-      <module name="pato-web" options="-endorseddirs D:\bakalarka\PATO\pato-web\target/endorsed" />
+      <module name="pato-ejb" options="-endorseddirs C:\bakalarka\PATO\pato-ejb\target/endorsed" />
+      <module name="pato-web" options="-endorseddirs C:\bakalarka\PATO\pato-web\target/endorsed" />
     </option>
   </component>
 </project>

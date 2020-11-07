@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+<persistence-unit name="pato">
+    <jta-data-source>java:jboss/jdbc/pato</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+        <property name="jboss.entity.manager.jndi.name" value="java:/EntityManager/PATO"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+        <!-- Supported values include create, create-drop, update, and validate -->
+        <property name="hibernate.hbm2ddl.auto" value="update"/>
+        <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
+        <property name="hibernate.treecache.mbean.object_name" value="jboss.cache:service=EJB3EntityTreeCache"/>
+        <property name="hibernate.cache.use_second_level_cache" value="false"/>
+        <property name="hibernate.cache.use_query_cache" value="false"/>
+        <property name="hibernate.show_sql" value="false"/>
+        <property name="javax.persistence.jtaDataSource" value="java:jboss/jdbc/pato"/>
+    </properties>
+</persistence-unit>
+</persistence>
