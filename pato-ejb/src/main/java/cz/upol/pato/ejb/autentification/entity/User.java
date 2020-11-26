@@ -9,6 +9,8 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
+@NamedQuery(name="User.findById", query="SELECT u FROM User u where u.id=:id")
+
 @Entity
 @Getter
 @Setter

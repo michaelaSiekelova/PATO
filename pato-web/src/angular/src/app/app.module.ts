@@ -11,11 +11,15 @@ import {MatListModule} from "@angular/material/list";
 import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatTableModule} from "@angular/material/table";
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import {AppRoutingModule} from "./app-routing.module";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContentComponent
+    ContentComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,9 @@ import {MatTableModule} from "@angular/material/table";
     MatListModule,
     MatButtonModule,
     MatGridListModule,
-    MatTableModule
+    MatTableModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

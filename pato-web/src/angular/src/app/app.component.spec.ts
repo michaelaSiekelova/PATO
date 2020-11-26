@@ -1,12 +1,25 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {BrowserModule} from "@angular/platform-browser";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import {AppRoutingModule} from "./app-routing.module";
+import {UserProfileComponent} from "./user-profile/user-profile.component";
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        UserProfileComponent
       ],
+      imports: [
+      BrowserModule,
+      FormsModule,
+      ReactiveFormsModule,
+      HttpClientModule,
+      AppRoutingModule
+    ],
     }).compileComponents();
   });
 
