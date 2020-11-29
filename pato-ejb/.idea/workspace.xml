@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pato-web:war exploded" />
+      <artifact name="pato-ejb:ejb" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +59,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pato-web/pom.xml" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../test-rest/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-rest/pom.xml" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -69,15 +70,20 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.42684063" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\bakalarka\PATO\pato-web\src\angular\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (pato-web)">
-    <configuration name="JBoss 20.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\bakalarka\PATO\test-rest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 20.0.0.Final">
+    <configuration name="JBoss 20.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pato-web:war exploded">
+        <artifact name="pato-ejb:ejb">
           <settings />
         </artifact>
       </deployment>
@@ -85,13 +91,13 @@
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" />
+        <option name="SERVER_GROUP" value="main-server-group" />
         <option name="USERNAME" value="" />
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61285" />
+        <option name="DEBUG_PORT" value="54761" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -141,9 +147,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pato-web:war exploded" />
+          <artifact name="pato-ejb:ejb" />
         </option>
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="Angular CLI Server (pato-web)" run_configuration_type="js.build_tools.npm" />
       </method>
     </configuration>
     <configuration name="E2E Tests (pato-web)" type="JavaScriptTestRunnerProtractor">
@@ -192,7 +197,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -225,6 +230,13 @@
       <workItem from="1604073119656" duration="299000" />
       <workItem from="1604763236984" duration="38018000" />
       <workItem from="1604953085672" duration="3008000" />
+      <workItem from="1606406814086" duration="2232000" />
+      <workItem from="1606493180177" duration="16802000" />
+      <workItem from="1606654439762" duration="5597000" />
+      <workItem from="1606660376851" duration="1484000" />
+      <workItem from="1606661887832" duration="5000" />
+      <workItem from="1606664203273" duration="767000" />
+      <workItem from="1606675338277" duration="290000" />
     </task>
     <servers />
   </component>
@@ -249,10 +261,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="589" y="218" key="#Angular_CLI_Server_(pato-web)/0.0.1920.1040@0.0.1920.1040" timestamp="1604953213808" />
-    <state x="987" y="75" key="#Project_Structure" timestamp="1603132074498">
+    <state x="690" y="111" key="#JBoss_20.0.0.Final" timestamp="1606659907223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="75" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603132074498" />
+    <state x="690" y="111" key="#JBoss_20.0.0.Final/0.0.1920.1040@0.0.1920.1040" timestamp="1606659907223" />
+    <state x="440" y="146" width="1279" height="683" key="#Project_Structure" timestamp="1606660093772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="146" width="1279" height="683" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606660093772" />
     <state x="552" y="178" key="#TSLint" timestamp="1604778736292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,14 +277,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1602625538040" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604953803075">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606675350061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604953803075" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606675350061" />
     <state x="724" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604777673076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604777673076" />
+    <state x="655" y="364" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1606658713821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="364" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606658713821" />
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606661602620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606661602620" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1604952422053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,66 +301,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="494" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1603132064153" />
-    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1603051499470">
+    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606408675511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603051499470" />
-    <state x="1123" y="224" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1603051801253">
+    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606408675511" />
+    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1606654112047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1123" y="224" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603051801253" />
-    <state x="782" y="303" key="FileChooserDialogImpl" timestamp="1604955028550">
+    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606654112047" />
+    <state x="782" y="303" key="FileChooserDialogImpl" timestamp="1606659647953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="782" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604955028550" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604956674405">
+    <state x="782" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606659647953" />
+    <state width="1848" height="444" key="GridCell.Tab.0.bottom" timestamp="1606661871042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604956674405" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604956674405">
+    <state width="1848" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871042" />
+    <state width="1848" height="444" key="GridCell.Tab.0.center" timestamp="1606661871041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604956674405" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604956674405">
+    <state width="1848" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871041" />
+    <state width="1848" height="444" key="GridCell.Tab.0.left" timestamp="1606661871041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604956674405" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604956674405">
+    <state width="1848" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871041" />
+    <state width="1848" height="444" key="GridCell.Tab.0.right" timestamp="1606661871042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604956674405" />
-    <state width="1452" height="589" key="GridCell.Tab.1.bottom" timestamp="1603046577522">
+    <state width="1848" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871042" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606503499620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1452" height="589" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603046577522" />
-    <state width="1452" height="589" key="GridCell.Tab.1.center" timestamp="1603046577522">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606503499620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1452" height="589" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603046577522" />
-    <state width="1452" height="589" key="GridCell.Tab.1.left" timestamp="1603046577521">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606503499620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1452" height="589" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603046577521" />
-    <state width="1452" height="589" key="GridCell.Tab.1.right" timestamp="1603046577522">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606503499620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1452" height="589" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603046577522" />
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.bottom" timestamp="1603046559265">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603046559265" />
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.center" timestamp="1603046559264">
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606497700849" />
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603046559264" />
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.left" timestamp="1603046559264">
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606497700849" />
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603046559264" />
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.right" timestamp="1603046559264">
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606497700849" />
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603046559264" />
+    <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606497700849" />
     <state x="73" y="483" width="1423" height="32" key="GridCell.Tab.3.bottom" timestamp="1603046517538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -357,10 +381,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603049289715" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1604773210218">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1606660531898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604773210218" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606660531898" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1606656733882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606656733882" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1606660634413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606660634413" />
     <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603131157417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -369,14 +401,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603131128087" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604763284954">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606661887859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604763284954" />
-    <state x="1127" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603051800485">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606661887859" />
+    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606408663953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1127" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1603051800485" />
+    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1606408663953" />
     <state x="73" y="483" width="1439" height="99" key="dock-window-1" timestamp="1603046488366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,17 +421,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="892" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604955866998" />
-    <state x="342" y="140" key="new project wizard" timestamp="1604773482234">
+    <state x="342" y="140" key="new project wizard" timestamp="1606659452952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604773482234" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606659452952" />
     <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate" timestamp="1604784981075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1604784981075" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604954079955">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606504796442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604954079955" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606504796442" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile-rest.service.ts</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cz/upol/pato/ejb/autentification/rest/PatoApplication.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cz/upol/pato/ejb/autentification/rest/UserResource.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

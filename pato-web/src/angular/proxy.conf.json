@@ -1,6 +1,8 @@
 {
-  "/api": {
+  "/pato-api/*": {
     "target": "http://localhost:8090",
-    "secure": false
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
   }
 }

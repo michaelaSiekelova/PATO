@@ -20,7 +20,7 @@ export class UserProfileComponent implements OnInit {
 
   init():void {
     this.service.getUserProfile().subscribe(user => {
-      this.user = <UserDto>user});
+      this.user = user});
   }
 
 }

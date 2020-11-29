@@ -1,6 +1,11 @@
 cz\upol\pato\ejb\autentification\entity\Company.class
+cz\upol\pato\ejb\permitions\entity\Role.class
+cz\upol\pato\ejb\autentification\api\AutentificationEJBLocal.class
+cz\upol\pato\ejb\ticket\entity\Ticket.class
+cz\upol\pato\ejb\autentification\dto\UserDto.class
+cz\upol\pato\ejb\autentification\rest\UserResource.class
 cz\upol\pato\ejb\autentification\entity\User.class
 cz\upol\pato\ejb\project\entity\Project.class
-cz\upol\pato\ejb\permitions\entity\Role.class
 cz\upol\pato\ejb\permitions\entity\ProjectRole.class
-cz\upol\pato\ejb\ticket\entity\Ticket.class
+cz\upol\pato\ejb\autentification\beans\AutentificationEJB.class
+cz\upol\pato\ejb\autentification\rest\PatoApplication.class
