@@ -13,6 +13,6 @@ export class UserProfileRestService {
   }
 
   getUserProfile() : Observable<UserDto> {
-    return this.http.get<UserDto>('pato-api/model/user/userDto');
+    return this.http.get<UserDto>('/pato-api/model/user/userDto');
   }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pato-ejb:ejb" />
+      <artifact name="pato-ejb:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -28,7 +28,57 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app_user: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -68,7 +118,7 @@
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/../pato-web/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42684063" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -81,9 +131,10 @@
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 20.0.0.Final">
     <configuration name="JBoss 20.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pato-ejb/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pato-ejb:ejb">
+        <artifact name="pato-ejb:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -147,7 +198,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pato-ejb:ejb" />
+          <artifact name="pato-ejb:war exploded" />
         </option>
       </method>
     </configuration>
@@ -236,7 +287,7 @@
       <workItem from="1606660376851" duration="1484000" />
       <workItem from="1606661887832" duration="5000" />
       <workItem from="1606664203273" duration="767000" />
-      <workItem from="1606675338277" duration="817000" />
+      <workItem from="1606675338277" duration="11003000" />
     </task>
     <servers />
   </component>
@@ -277,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1602625538040" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606675350061">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606772676213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606675350061" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606772676213" />
     <state x="724" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604777673076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,38 +364,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606659647953" />
-    <state width="1848" height="444" key="GridCell.Tab.0.bottom" timestamp="1606661871042">
+    <state width="1848" height="444" key="GridCell.Tab.0.bottom" timestamp="1606819037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871042" />
-    <state width="1848" height="444" key="GridCell.Tab.0.center" timestamp="1606661871041">
+    <state width="1848" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
+    <state width="1848" height="444" key="GridCell.Tab.0.center" timestamp="1606819037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871041" />
-    <state width="1848" height="444" key="GridCell.Tab.0.left" timestamp="1606661871041">
+    <state width="1848" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
+    <state width="1848" height="444" key="GridCell.Tab.0.left" timestamp="1606819037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871041" />
-    <state width="1848" height="444" key="GridCell.Tab.0.right" timestamp="1606661871042">
+    <state width="1848" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
+    <state width="1848" height="444" key="GridCell.Tab.0.right" timestamp="1606819037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606661871042" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606503499620">
+    <state width="1848" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606817692505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606503499620">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606817692505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606503499620">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606817692505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606503499620">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606817692505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606503499620" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
     <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -385,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606660531898" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1606656733882">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1606772935679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606656733882" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606772935679" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1606660634413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -425,10 +476,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606659452952" />
-    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate" timestamp="1604784981075">
+    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate" timestamp="1606826985550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1604784981075" />
+    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1606826985550" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606504796442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,15 +498,17 @@
           <line>15</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cz/upol/pato/ejb/autentification/rest/PatoApplication.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="6" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cz/upol/pato/ejb/autentification/rest/UserResource.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

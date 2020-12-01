@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pato-ejb.iml" filepath="$PROJECT_DIR$/pato-ejb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pato-web/pato-web.iml" filepath="$PROJECT_DIR$/../pato-web/pato-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../test-rest/test-rest.iml" filepath="$PROJECT_DIR$/../test-rest/test-rest.iml" />
     </modules>
   </component>
 </project>
