@@ -20,15 +20,15 @@ public class AutentificationEJB implements AutentificationEJBLocal {
     @PersistenceContext
     private EntityManager em;
 
-    public UserDto getCurrentUserProfile(){
-        TypedQuery<User> query = em.createNamedQuery("User.findById", User.class);
-        query.setParameter("id", 1L);
+    public UserDto getCurrentUserProfile(String email){
+        TypedQuery<User> query = em.createNamedQuery("User.findByEmail", User.class);
+        query.setParameter("email", email);
         User result = query.getSingleResult();
-        log.info(result.getEmail());
+        log.info(result.getEmail() + " = " + result.getId());
         return convertUser(result);
     }
 
     private UserDto convertUser(User user){
-        return new UserDto(user.getEmail());
+        return new UserDto(user.getEmail(), user.getId());
     }
 }

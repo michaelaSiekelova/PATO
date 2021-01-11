@@ -78,13 +78,38 @@
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="app_user: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ticket: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PATO" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -118,9 +143,10 @@
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/../pato-web/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42684063" />
+    <property name="service.view.auto.scroll.from.source" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\bakalarka\PATO\pato-web\src\angular\node_modules\typescript\lib" />
   </component>
@@ -129,9 +155,9 @@
       <recent name="C:\bakalarka\PATO\test-rest" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss Server.JBoss 20.0.0.Final">
+  <component name="RunManager" selected="npm.Angular CLI Server (pato-web)">
     <configuration name="JBoss 20.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pato-ejb/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="pato-ejb:war exploded">
@@ -148,7 +174,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54761" />
+        <option name="DEBUG_PORT" value="54762" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -256,7 +282,6 @@
         </serviceView>
       </list>
     </option>
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -287,7 +312,19 @@
       <workItem from="1606660376851" duration="1484000" />
       <workItem from="1606661887832" duration="5000" />
       <workItem from="1606664203273" duration="767000" />
-      <workItem from="1606675338277" duration="11003000" />
+      <workItem from="1606675338277" duration="39727000" />
+      <workItem from="1607186796119" duration="7935000" />
+      <workItem from="1607530028604" duration="8325000" />
+      <workItem from="1607858652119" duration="26768000" />
+      <workItem from="1608715028792" duration="2503000" />
+      <workItem from="1609258409575" duration="249000" />
+      <workItem from="1609258880864" duration="32345000" />
+      <workItem from="1609405911013" duration="248000" />
+      <workItem from="1609406504123" duration="2985000" />
+      <workItem from="1609667405053" duration="1852000" />
+      <workItem from="1609671595761" duration="637000" />
+      <workItem from="1609751790802" duration="710000" />
+      <workItem from="1609752959958" duration="16843000" />
     </task>
     <servers />
   </component>
@@ -312,14 +349,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="589" y="218" key="#Angular_CLI_Server_(pato-web)/0.0.1920.1040@0.0.1920.1040" timestamp="1604953213808" />
-    <state x="690" y="111" key="#JBoss_20.0.0.Final" timestamp="1606659907223">
+    <state x="690" y="111" width="543" height="672" key="#JBoss_20.0.0.Final" timestamp="1609405859851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="111" key="#JBoss_20.0.0.Final/0.0.1920.1040@0.0.1920.1040" timestamp="1606659907223" />
-    <state x="440" y="146" width="1279" height="683" key="#Project_Structure" timestamp="1606660093772">
+    <state x="690" y="111" width="543" height="672" key="#JBoss_20.0.0.Final/0.0.1920.1040@0.0.1920.1040" timestamp="1609405859851" />
+    <state x="440" y="146" width="1279" height="683" key="#Project_Structure" timestamp="1609759042841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="146" width="1279" height="683" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606660093772" />
+    <state x="440" y="146" width="1279" height="683" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1609759042841" />
     <state x="552" y="178" key="#TSLint" timestamp="1604778736292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,10 +365,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1602625538040" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606772676213">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609753348531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606772676213" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609753348531" />
     <state x="724" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604777673076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,10 +377,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="364" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606658713821" />
-    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606661602620">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1610099203103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606661602620" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610099203103" />
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606927718332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606927718332" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1604952422053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,50 +393,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="494" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1603132064153" />
-    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606408675511">
+    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1609759030737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606408675511" />
-    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1606654112047">
+    <state x="790" y="195" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609759030737" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608562114548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606654112047" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608562114548" />
+    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1609759032975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="233" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609759032975" />
     <state x="782" y="303" key="FileChooserDialogImpl" timestamp="1606659647953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606659647953" />
-    <state width="1848" height="444" key="GridCell.Tab.0.bottom" timestamp="1606819037713">
+    <state width="1591" height="421" key="GridCell.Tab.0.bottom" timestamp="1610027767619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
-    <state width="1848" height="444" key="GridCell.Tab.0.center" timestamp="1606819037713">
+    <state width="1591" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610027767619" />
+    <state width="1591" height="421" key="GridCell.Tab.0.center" timestamp="1610027767619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
-    <state width="1848" height="444" key="GridCell.Tab.0.left" timestamp="1606819037713">
+    <state width="1591" height="421" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610027767619" />
+    <state width="1591" height="421" key="GridCell.Tab.0.left" timestamp="1610027767619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
-    <state width="1848" height="444" key="GridCell.Tab.0.right" timestamp="1606819037713">
+    <state width="1591" height="421" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610027767619" />
+    <state width="1591" height="421" key="GridCell.Tab.0.right" timestamp="1610027767619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="444" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606819037713" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606817692505">
+    <state width="1591" height="421" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610027767619" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608714992262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606817692505">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608714992262" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608714992262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606817692505">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608714992262" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608714992262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606817692505">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608714992262" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608714992262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606817692505" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608714992262" />
     <state x="73" y="483" width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1606497700849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,10 +477,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1603049289715" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1606660531898">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1609758888282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606660531898" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609758888282" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1606772935679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,6 +489,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606660634413" />
+    <state x="828" y="400" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1608558659425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="400" width="326" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1608558659425" />
     <state x="676" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603131157417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -452,14 +501,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603131128087" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606661887859">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1609753005507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606661887859" />
-    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606408663953">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609753005507" />
+    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1609758991612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1606408663953" />
+    <state x="554" y="239" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1609758991612" />
+    <state x="443" y="256" width="1033" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609753649653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="443" y="256" width="1033" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1609753649653" />
     <state x="73" y="483" width="1439" height="99" key="dock-window-1" timestamp="1603046488366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,41 +529,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606659452952" />
-    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate" timestamp="1606826985550">
+    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate" timestamp="1609762339184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1606826985550" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606504796442">
+    <state x="823" y="446" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1609762339184" />
+    <state x="666" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1607532762053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606504796442" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile-rest.service.ts</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../pato-web/src/angular/src/app/user-profile/user-profile.component.ts</url>
-          <line>23</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607532762053" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608561162161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608561162161" />
   </component>
 </project>

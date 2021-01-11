@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Create Ticket</h2>
+<mat-dialog-content class="mat-typography">
+  <form class="example-container" [formGroup]="formGroup">
+
+    <mat-form-field appearance="fill"  focusInitialElementWhenReady>
+      <mat-label>Ticket name</mat-label>
+      <input matInput required type="text" placeholder="Ticket one"  formControlName="name" min="10"/>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill" >
+      <mat-label>Ticket description</mat-label>
+      <input matInput required type="text" placeholder="Description of issue" formControlName="description"  min="10"/>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Project</mat-label>
+      <mat-select formControlName="projectId" >
+        <mat-option *ngFor="let pr of projects" [value]="pr.id">
+          {{pr.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="saveDialog()">Save</button>
+</mat-dialog-actions>

@@ -8,5 +8,5 @@ import javax.ejb.Local;
 @Local
 public interface AutentificationEJBLocal {
 
-    UserDto getCurrentUserProfile();
+    UserDto getCurrentUserProfile(String email);
 }

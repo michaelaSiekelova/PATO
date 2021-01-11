@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {UserProfileComponent} from "./user-profile/user-profile.component";
-import {AppComponent} from "./app.component";
-import {BrowserModule} from "@angular/platform-browser";
-import {HttpClientModule} from "@angular/common/http";
-import {UserProfileRestService} from "./user-profile/user-profile-rest.service";
+import {ProjectOverviewTableComponent} from "./project-overview-table/project-overview-table.component";
+import {ProjectDetailComponent} from "./project-detail/project-detail.component";
+import {TicketOverviewTableComponent} from "./ticket-overview-table/ticket-overview-table.component";
 
 const routes: Routes = [
-  {path: 'user', component: UserProfileComponent},
+  {path: 'userProfile', component: UserProfileComponent},
+  {path: 'projectsOverview', component: ProjectOverviewTableComponent},
+  {path: 'ticketsOverview', component: TicketOverviewTableComponent},
+  {path: 'projectDetail/:id', component: ProjectDetailComponent},
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  providers: []
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

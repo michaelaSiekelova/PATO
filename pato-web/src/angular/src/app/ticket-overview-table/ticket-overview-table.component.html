@@ -1,0 +1,80 @@
+
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="tickets" matSort>
+
+    <!-- Control Column -->
+    <ng-container matColumnDef="control">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <button mat-stroked-button color="primary" (click)="openCreateDialog()"
+                aria-label="Open create dialog">New</button>
+      </th>
+      <td mat-cell *matCellDef="let row">
+        <button mat-icon-button color="primary" routerLink="/projectDetail/{{row.id}}"
+                aria-label="Redirect to project detail" matTooltip="Redirect to project detail"
+                [matTooltipPosition]="'right'">
+          <mat-icon>double_arrow</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <!-- Key Column -->
+    <ng-container matColumnDef="key">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Key </th>
+      <td mat-cell *matCellDef="let row"> {{row.key}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+      <td mat-cell *matCellDef="let row"> {{row.name}} </td>
+    </ng-container>
+
+    <!-- Type Column -->
+    <ng-container matColumnDef="type">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
+      <td mat-cell *matCellDef="let row"> {{row.type}} </td>
+    </ng-container>
+
+    <!-- Create date Column -->
+    <ng-container matColumnDef="createDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Create date </th>
+      <td mat-cell *matCellDef="let row"> {{row.createDate}} </td>
+    </ng-container>
+
+    <!-- Deadline Column -->
+    <ng-container matColumnDef="deadline">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Deadline </th>
+      <td mat-cell *matCellDef="let row"> {{row.deadline}} </td>
+    </ng-container>
+
+    <!-- CreateUser Column -->
+    <ng-container matColumnDef="createUser">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Create user </th>
+      <td mat-cell *matCellDef="let row"> {{row.createUser}} </td>
+    </ng-container>
+
+    <!-- Assignee Column -->
+    <ng-container matColumnDef="assignee">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Current assignee </th>
+      <td mat-cell *matCellDef="let row"> {{row.assignee}} </td>
+    </ng-container>
+
+    <!-- Assignee Column -->
+    <ng-container matColumnDef="project">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Project </th>
+      <td mat-cell *matCellDef="let row"> {{row.projectName}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="colums"></tr>
+    <tr mat-row *matRowDef="let row; columns: colums;"></tr>
+
+    <!-- Row shown when there is no matching data. -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">No data matching the filter </td>
+    </tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+
+</div>

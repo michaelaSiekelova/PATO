@@ -1,5 +1,7 @@
 package cz.upol.pato.ejb.autentification.entity;
 
+import cz.upol.pato.ejb.project.entity.Project;
+import cz.upol.pato.ejb.ticket.entity.Ticket;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,8 +10,14 @@ import cz.upol.pato.ejb.permitions.entity.Role;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
+import java.util.Set;
 
-@NamedQuery(name="User.findById", query="SELECT u FROM User u where u.id=:id")
+@NamedQueries({
+        @NamedQuery(name="User.findById", query="SELECT u FROM User u where u.id=:id"),
+        @NamedQuery(name="User.findByEmail", query="SELECT u FROM User u where u.email=:email"),
+        @NamedQuery(name="User.findProjectsByUserId", query="SELECT u.projects FROM User u where u.id=:id"),
+})
+
 
 @Entity
 @Getter
@@ -24,11 +32,10 @@ public class User implements Serializable {
 
     private String email;
 
-    @ManyToMany(cascade = { CascadeType.ALL })
-    @JoinTable(
-            name = "User_Role",
-            joinColumns = { @JoinColumn(name = "user_id") },
-            inverseJoinColumns = { @JoinColumn(name = "role_id") }
-    )
-    private List<Role> roles;
+    private byte[] userAvatar;
+
+
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "users")
+    Set<Project> projects;
+
 }

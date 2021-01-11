@@ -1,0 +1,21 @@
+<h2 mat-dialog-title>Create project</h2>
+<mat-dialog-content class="mat-typography">
+  <form class="example-container" [formGroup]="formGroup">
+
+    <mat-form-field appearance="fill"  focusInitialElementWhenReady>
+      <mat-label>Project name</mat-label>
+      <input matInput required type="text" placeholder="Project one"  formControlName="name" min="10"/>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill" >
+      <mat-label>Project key</mat-label>
+      <input matInput required type="text" placeholder="POK" formControlName="key"  min="10"/>
+      <mat-hint align="end">Shortcut of project name that will be used to index </mat-hint>
+    </mat-form-field>
+
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="saveDialog()">Save</button>
+</mat-dialog-actions>

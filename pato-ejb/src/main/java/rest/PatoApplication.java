@@ -10,6 +10,10 @@ import javax.ws.rs.core.Context;
 
 import cz.upol.pato.ejb.autentification.dto.UserDto;
 import cz.upol.pato.ejb.autentification.rest.UserResource;
+import cz.upol.pato.ejb.project.dto.ProjectDto;
+import cz.upol.pato.ejb.project.rest.ProjectResource;
+import cz.upol.pato.ejb.ticket.dto.TicketDto;
+import cz.upol.pato.ejb.ticket.rest.TicketResource;
 import io.swagger.jaxrs.config.BeanConfig;
 
 @ApplicationPath("/pato-api")
@@ -23,6 +27,10 @@ public class PatoApplication extends Application {
     Set<Class<?>> classes = new HashSet<Class<?>>();
     classes.add(UserResource.class);
     classes.add(UserDto.class);
+    classes.add(ProjectDto.class);
+    classes.add(ProjectResource.class);
+    classes.add(TicketDto.class);
+    classes.add(TicketResource.class);
     classes.add(io.swagger.jaxrs.listing.ApiListingResource.class);
     classes.add(io.swagger.jaxrs.listing.SwaggerSerializers.class);
     return classes;

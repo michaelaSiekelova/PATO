@@ -1,0 +1,7 @@
+<secure-deployment name="WAR MODULE NAME.war">
+    <realm>master</realm>
+    <auth-server-url>http://localhost:8079/auth/</auth-server-url>
+    <public-client>true</public-client>
+    <ssl-required>EXTERNAL</ssl-required>
+    <resource>pato</resource>
+</secure-deployment>

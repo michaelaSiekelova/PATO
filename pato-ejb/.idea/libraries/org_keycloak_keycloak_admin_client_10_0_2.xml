@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="org.keycloak:keycloak-admin-client:10.0.2" type="repository">
+    <properties maven-id="org.keycloak:keycloak-admin-client:10.0.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-admin-client/10.0.2/keycloak-admin-client-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-core/10.0.2/keycloak-core-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-common/10.0.2/keycloak-common-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-client/3.9.1.Final/resteasy-client-3.9.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.3.Final/jboss-jaxrs-api_2.1_spec-1.0.3.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/3.9.1.Final/resteasy-jaxrs-3.9.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/annotation/jboss-annotations-api_1.3_spec/1.0.1.Final/jboss-annotations-api_1.3_spec-1.0.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-multipart-provider/3.9.1.Final/resteasy-multipart-provider-3.9.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jackson2-provider/3.9.1.Final/resteasy-jackson2-provider-3.9.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.10/jackson-jaxrs-json-provider-2.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.10/jackson-jaxrs-base-2.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.10/jackson-module-jaxb-annotations-2.9.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fge/json-patch/1.9/json-patch-1.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fge/jackson-coreutils/1.6/jackson-coreutils-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fge/btf/1.2/btf-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxb-provider/3.9.1.Final/resteasy-jaxb-provider-3.9.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.1.Final/jboss-jaxb-api_2.3_spec-1.0.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

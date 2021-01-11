@@ -19,4 +19,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class UserDto {
     @XmlElement(required=false)
     private String email;
+
+    private long id;
 }
